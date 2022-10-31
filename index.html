@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,width=device-width">
+
+    <link rel="stylesheet" href="./css/normalize.min.css"/>
+    <link rel="stylesheet" href="./libs/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./css/style.css"/>
+
+    <title>ZIEX</title>
+</head>
+<body>
+<div class="wrapper">
+    <div class="content">
+        <section class="slider swiper">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <div class="slide__box">
+                        <img class="slide__image" src="./images/1.jpg" alt="new year's game">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide__box">
+                        <img class="slide__image" src="./images/2.jpg" alt="new year's game">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide__box">
+                        <img class="slide__image" src="./images/3.jpg" alt="new year's game">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide__box">
+                        <img class="slide__image" src="./images/4.jpg" alt="new year's game">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide__box">
+                        <img class="slide__image" src="./images/5.jpg" alt="new year's game">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide__box">
+                        <img class="slide__image" src="./images/6.jpg" alt="new year's game">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide__box">
+                        <img class="slide__image" src="./images/7.jpg" alt="new year's game">
+                    </div>
+                </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+        </section>
+        <section class="animation-block middle">
+            <div class="animation-block__wrapper" id="scene">
+                <div class="animation-block__item item__background" data-depth="0.1"></div>
+                <div class="animation-block__item item__moon" data-depth="0.6"></div>
+                <div class="animation-block__item item__castle"></div>
+            </div>
+        </section>
+        <section class="section-form">
+            <form class="form" action="" id="form">
+                <div class="user-box">
+                    <input class="required" type="text" name="name" id="name">
+                    <label>Username</label>
+                    <span class="input-error">This field can only contain letters and "-"</span>
+                </div>
+                <div class="user-box">
+                    <input class="required" type="email" name="email" id="email">
+                    <label>Email</label>
+                    <span class="input-error">Please enter a valid email</span>
+                </div>
+                <div class="user-box">
+                    <input class="required" type="text" name="phone" id="phone">
+                    <label>Phone</label>
+                    <span class="input-error">Please enter your phone number in the format +___ (__) ___-__-__</span>
+                </div>
+                <button>Sign In</button>
+            </form>
+        </section>
+    </div>
+</div>
+
+<script src="./libs/swiper/swiper-bundle.min.js"></script>
+<script src="./libs/validator/ValidateForm.js"></script>
+<script src="./libs/parallax/parallax.min.js"></script>
+<script src="js/index.js"></script>
+
+</body>
+</html>
